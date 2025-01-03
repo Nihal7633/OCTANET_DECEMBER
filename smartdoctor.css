@@ -1,0 +1,122 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+
+.hero {
+    background: url('background-image.jpg') center/cover no-repeat;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero .content h1 {
+    color: darkslategray;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero .content p {
+    color: darkslategray;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-buttons .btn {
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.primary {
+    background-color: #007BFF;
+    color: white;
+}
+
+.secondary {
+    background-color: white;
+    color: #007BFF;
+    border: 1px solid #007BFF;
+}
+
+
+.features {
+    background: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.feature-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+
+.how-it-works {
+    background: #e9ecef;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.steps {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.step {
+    text-align: center;
+    max-width: 200px;
+}
+
+.step img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-links a {
+    color: #007BFF;
+    margin: 0 10px;
+    text-decoration: none;
+}
